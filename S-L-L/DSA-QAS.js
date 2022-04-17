@@ -23,10 +23,9 @@ class Ninput{
     }
 
     // Reverse Question Solved
-
+    // My Solution
     // reverse(){
-        // this.head = nodeInput
-        //    if(!this.head) return null
+    //     this.head = nodeInput 
     //     var current = this.head
     //     var temp = current
     //     while(current.next){
@@ -46,9 +45,31 @@ class Ninput{
     //         prev = node
     //         node = next
     //     }
-
     //     return this
     // }
 }
 
+
+//Striver Solution
+
+// var reverseList = function(head) {
+//     let empty = new ListNode();
+//     empty = null;
+//     if(head === null) return empty;    
+//     let prev = null;
+//         let curr = new ListNode()
+//         let temp = new ListNode();
+//         curr = head;
+//         temp = head.next;
+//     while(curr !== null){
+//         curr.next = prev;
+//         prev = curr;
+//         curr = temp;
+//         temp = temp?.next;
+//     }
+//         return prev;
+     
+
+// };
 let nInput = new Ninput()
+
